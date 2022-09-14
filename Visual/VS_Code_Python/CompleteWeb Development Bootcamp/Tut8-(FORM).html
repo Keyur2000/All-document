@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    
+    <body>
+        <h2>This is html forms tutorial</h2>
+        <form action="backend.php">
+            <div>
+                <label for="my">Name:</label>
+                <!--when you moving on Are you eligible: then its
+                     input area is active with the help of "Lable" tag ,
+                      But "input" tag id and "Lable" tag for must be same-->
+             <input type="text" name="myName" id="my">
+            <!-- Backend use name attribute value(myname,myRole,myEmail) -->
+        </div>
+        <br>
+        <!--br gives space between Name,Role,Email -->
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myNumber">
+        </div>
+        <br>
+        <div>
+            <label for="choice">Are you eligible: </label>
+            <input type="checkbox" name="myChoice" id="choice">
+            <!--checked is one attribute OF input tag which is all time
+            checked -->
+        </div>
+        <br>
+        <div>
+            Gender: male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <div>
+            write about your self <br> <textarea name="myText" cols="30" rows="12"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="wheels">Choose Car</label>
+            <select name="myCar" id="wheels">
+                <!--Select tag id and lable tag for is same  -->
+                <option>Indica</option>
+                <option>Swift</option><!-- By Default Select with the help of selected Attribute of Option tag-->
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: burlywood;
+            padding:34px;
+            margin: 34px auto;
+            width: 600px;
+            
+        }
+        a{
+            text-decoration: none; /*Underline remover */
+        }
+        a:hover{
+            color:white;
+            background-color:red; /* For Move*/
+        }
+        a:visited{
+              background-color:rgb(158, 8, 96);  /* For Visiting*/
+        }
+        a:active{
+            background-color:black;     /* For Click */
+            color: white;
+        }   
+
+        button:hover{
+            color:black;
+            background-color:  turquoise;
+        }
+        .btn{
+            background-color: rgb(65, 22, 134);
+            padding: 3px;
+            border: none;
+            cursor:pointer;
+            font-size: 16px;
+            color: white;
+            border-radius: 8px;
+            font-width: bold;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is MY HEADING</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, perspiciatis! Officiis molestiae similique repellat optio natus iste nobis vitae aliquam ipsam pariatur modi debitis velit veniam porro, saepe ad doloremque.
+        </P>
+        <a href="https://instagram.com" class="btn">Read More</a>
+        <button class="btn">ContactUs</button>
+    </div>
+</body>
+</html>

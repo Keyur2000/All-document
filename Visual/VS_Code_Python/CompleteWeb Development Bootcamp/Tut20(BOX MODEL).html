@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box; /* when padding is increasing then width is increasing in normal case but when border-box is apply then it is adjust according the width of the box */
+            margin: 0px;
+            padding: 0px;
+        }
+    .container{
+        background-color: burlywood;
+        border:3px solid red;
+        /*padding,margin for top,bottom,left,right like thid 
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-left: 27px;
+        padding-right: 27px;*/
+
+        /*padding: 27px 27px 27px 27px;*/
+        /*padding,margin-TOP,RIGHT,BOTTOM,LEFT*/
+        
+        padding: 27px 40px;
+        margin:14px 19px;
+        /*padding,margin: Y(TOP==BOTTOM) X(LEFT==RIGHT)*/
+
+        border-radius: 23px;
+        width:402px;
+        /* box-sizing: border-box; */
+    }       
+    body{
+        background-color: black;
+    }
+    </style>
+</head>`
+
+<body>
+    <div class="container">
+        <h3>This is my hadding</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi repudiandae sunt, ipsum quo quae
+            corrupti similique labore facilis, officiis, velit nulla? Vero veritatis quaerat voluptas alias, architecto
+            harum recusandae nobis!</p>
+    </div>
+    <div class="container">
+        <h3>This is my hadding</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi repudiandae sunt, ipsum quo quae
+            corrupti similique labore facilis, officiis, velit nulla? Vero veritatis quaerat voluptas alias, architecto
+            harum recusandae nobis!</p>
+    </div>
+    <div class="container">
+        <h3>This is my hadding</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi repudiandae sunt, ipsum quo quae
+            corrupti similique labore facilis, officiis, velit nulla? Vero veritatis quaerat voluptas alias, architecto
+            harum recusandae nobis!</p>
+    </div>
+</body>
+
+</html>

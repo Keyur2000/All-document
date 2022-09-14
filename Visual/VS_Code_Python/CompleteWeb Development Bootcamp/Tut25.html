@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 3px solid yellow;
+            background-color: palevioletred;
+            height: 3444px;
+            ;
+            /*width: 1000px;*/
+        }
+        /* POSITION : STATIC(DEFAULT),ABSOLUE,RELATIVE,FIXED,STICKY */
+        .box{
+           display: inline-block;
+           border: 2px solid red;
+           width:150px;
+           height:150px;
+           margin: 2px;
+           
+        }
+        #box3{
+            /*relative  :   RELATIVE TO ITS NORMAL POSITION*/
+            /*position: relative;*/
+
+            /*absolute   :     RELATIVE TO ITS PARENT POSITION*/
+            
+            /*FIXED*/
+
+           /* position: fixed;
+            left:800px;
+            top: 5px;*/
+            
+            position: sticky;
+            top: 33px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">Chat with us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>
